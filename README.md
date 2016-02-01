@@ -1,2 +1,2 @@
 # branch-testing-poc
-POC
+Project for branch automated testing POC
