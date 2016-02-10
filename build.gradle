@@ -4,3 +4,7 @@ task test(overwrite: true) << {
   println "feature 1 pass";
   //throw new GradleException('tests failed')
 }
+
+task moreTest(type: Test) << {
+  throw new GradleException('tests failed')
+}
