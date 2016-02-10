@@ -5,6 +5,6 @@ task test(overwrite: true) << {
   //throw new GradleException('tests failed')
 }
 
-task moreTest(type: Test) << {
+task moreTest << {
   throw new GradleException('tests failed')
 }
