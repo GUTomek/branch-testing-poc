@@ -1,6 +1,10 @@
 apply plugin: 'java'
 
 task test(overwrite: true) << {
-  println "feature1failure";
+  println "feature 1 pass";
+  //throw new GradleException('tests failed')
+}
+
+task moreTest << {
   //throw new GradleException('tests failed')
 }
